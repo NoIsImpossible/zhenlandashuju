@@ -1,0 +1,218 @@
+/* 图标字体声明 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+  }
+/* 图标字体定义 */
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+/* 公共样式 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.e34 {
+    color: #e34945;
+}
+select,
+input,button{
+    outline: none;
+}
+
+/* 最顶部黑色导航栏样式 */
+header {
+    height: 40px;
+    background-color: #333333;
+}
+.nav li {
+    float: left;
+    color: #fff;
+}
+.nav li a {
+    line-height: 40px;
+    color: #fff;
+    font-size: 12px;
+}
+.nav .space {
+    width: 2px;
+    height: 32px;
+    background-color: #fff;
+    margin: 4px 10px 0;
+}
+
+.topMiddle {
+    height: 188px;
+    /* background-color: rgb(182, 16, 16); */
+    position: relative;
+}
+.topMiddle .logo {
+    background: url(../image/logo-all.png) no-repeat;
+    width: 364px;
+    height: 102px;
+    display: block;
+    margin-top: 39px;
+}
+.form {
+    width: 600px;
+    height: 34px;
+    /* background-color: red; */
+    position: absolute;
+    top: 43px;
+    left: 459px;
+    border: 2px solid #e12722;
+    box-sizing: border-box;
+}
+.form select {
+    width: 90px;
+    height: 30px;
+    border-right: 1px solid #b0b0b0;
+    font: Adobe 黑体 Std;
+    color: #b7b7b7;
+    font-size: 18px;
+    font-family: Adobe 黑体 Std;
+    /* text-align: center; */
+    padding-left: 16px;
+}
+.form input {
+    width: 424px;
+    height: 24px;
+    padding-left: 3px;
+    font: Adobe 黑体 Std;
+    color: #d6d6d6;
+}
+.form button {
+    width: 75px;
+    height: 30px;
+    font: 思源黑体 CN;
+    background-color: #e12722;
+}
+.hotKeywords,
+.hotStore {
+    font: 思源黑体 CN; 
+    font-size: 17px;
+    position: absolute;
+    left: 459px;
+    font: 思源黑体 CN;
+}
+.hotKeywords span,
+.hotStore span {
+    padding-right: 10px;
+    color: #e34945;
+}
+.hotKeywords {
+    top: 93px;
+}
+.hotStore {
+    top: 126px;
+}
+.hotKeywords li,
+.hotStore li {
+    float: left;
+    padding-right: 10px;
+}
+.hotKeywords li a,
+.hotStore li a {
+    color: #e34945;
+    font-size: 14px;
+}
+/* 广告区域 */
+.topAd {
+    border-top: 13px solid #f4f4f4;
+    height: 73px;
+    margin: 0 auto;
+}
+.topAd a img {
+    display: block;
+    width: 100%;
+    height: 73px;
+    background: url(../image/nav-ad.png) no-repeat;
+
+}
+.littleNav {
+    /* height: 52px; */
+    border-bottom: 2px solid #e5322d;
+}
+.littleNav .w {
+    height: 52px;
+    position: relative;
+}
+.littleNav .itemClass {
+    height: 48px;
+    width: 180px;
+    border-radius: 5px 5px 0 0;
+    background: #e5322d;
+    position: absolute;
+    bottom: 0;
+    left: 13px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: 思源黑体 CN;
+}
+.littleNav .w {
+    position: relative;
+}
+.littleNav ul li {
+    float: left;
+}
+.littleNav .wchat {
+    height: 40px;
+    width: 987px;
+    position: absolute;
+    bottom: 0;
+    left: 213px;
+    /* border-radius: 5px 0; */
+    background: #e5322d;
+    line-height: 40px;
+ }
+ .littleNav .wchat ul {
+     padding-left: 23px;
+ }
+ .littleNav .wchat ul .space {
+     width: 2px;
+     height: 30px;
+     margin: 5px 20px;
+     background-color: #fff;
+ }
+ .littleNav .wchat ul li a {
+    font-family: 思源黑体 CN;
+    font-style: 16px;
+    color: #fff;
+ }
+ .littleNav .wchat select {
+     position: absolute;
+     top: 10px;
+     right: 24px;
+     width: 240px;
+     height: 24px;
+     color: #cfcfcf;
+     font-size: 12px;
+     font-family: Adobe 黑体 Std;
+ }
+
+
+
+
+
+
+
+
